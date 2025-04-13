@@ -13,7 +13,5 @@ class MyName {
         console.log(this.id)
     }
 }
-
 let obj =  new MyName("testName")
-
 obj.yell()
