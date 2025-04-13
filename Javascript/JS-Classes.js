@@ -4,7 +4,7 @@ class MyName {
         this.name = name
         this.id= 1
     }
-    yell(){
+        yell(){
         console.log("ok..,I'm yelling !!")
         console.log(num)
     }
