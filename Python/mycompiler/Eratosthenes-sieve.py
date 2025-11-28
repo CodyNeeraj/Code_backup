@@ -7,8 +7,9 @@ def primes_less_than(n):
     is_prime[0] = False
     is_prime[1] = False
 
+    # this above +1 is here for considering the last digit of the range in loop also such that last +1 isn't accepted at all !
     for i in range(2, int(sqrt(n)+1)):
-        if is_prime[i]:
+        if is_prime[i]: #since above main list made only first two items as false rest all is true due to presence !
             for x in range(i*i, n, i):
                 is_prime[x] = False
 
